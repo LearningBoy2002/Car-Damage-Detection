@@ -1,0 +1,9 @@
+conda create -n Car python=3.10
+conda activate Car
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+
+
+
+git add .
+git commit -m"Message"
+git push origin main
