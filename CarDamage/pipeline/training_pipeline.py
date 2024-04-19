@@ -87,9 +87,6 @@ class TrainPipeline:
         except Exception as e:
             raise AppException(e, sys)
         
-        
-
-        
 
     
 
@@ -109,3 +106,5 @@ class TrainPipeline:
         
         except Exception as e:
             raise AppException(e, sys)
+        
+    

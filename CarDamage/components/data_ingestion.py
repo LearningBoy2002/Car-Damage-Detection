@@ -83,3 +83,4 @@ class DataIngestion:
 
         except Exception as e:
             raise AppException(e, sys)
+        

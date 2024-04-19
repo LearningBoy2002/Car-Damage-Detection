@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from CarDamage.constant.training_pipeline import *
 
+
 @dataclass
 class TrainingPipelineConfig:
     artifacts_dir: str = ARTIFACTS_DIR
@@ -24,7 +25,6 @@ class DataIngestionConfig:
 
     data_download_url: str = DATA_DOWNLOAD_URL
 
-    
 
 @dataclass
 class DataValidationConfig:
